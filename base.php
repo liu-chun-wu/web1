@@ -9,7 +9,7 @@ class DB
     //設定屬性
     private $dsn = "mysql:host=localhost;charset=utf8;dbname=db1";
     private $root = "root";
-    private $password = "";
+    private $password = "root";
     private $table;
     private $pdo;
 
