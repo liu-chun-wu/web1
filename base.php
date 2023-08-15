@@ -7,7 +7,7 @@ session_start();
 class DB
 {
     //設定屬性
-    private $dsn = "mysql:host=localhost;charset=utf8;dbname=db1";
+    private $dsn = "mysql:host=localhost;charset=utf8;dbname=web1";
     private $root = "root";
     private $password = "root";
     private $table;
